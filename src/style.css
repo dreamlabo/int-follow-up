@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif
+}
+
+
+.add-device-button {
+    width: 70%;
+    font-size: 1rem;
+    padding: .5em;
+    margin: .5em 1em ;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out
+}
+
+
+.add-device-button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+.devices-container {
+    width: 70%;
+    margin: 1em;   
+}
+
+
+.device {
+    width: 100%;
+    margin-bottom: 1em; 
+    padding: 1em;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    height: 100px;
+    position: relative;
+    animation-name: slideIn;
+    animation-duration: 500ms;
+}
+
+
+@keyframes slideIn {
+
+    from {
+        opacity: 0;    
+        left: -70%
+    } 
+
+    to {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+
+.device h2 {
+    padding-bottom: .8em;
+    text-transform: capitalize;
+}
+
+
+.device p {
+     font-style: italic;
+}
+
+
+.close-device-container {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    width: 1.5em;
+    height: 1.5em;
+    top: .5em;
+    right: .5em;
+    cursor: pointer;    
+}
+
+
+.close-device {
+    position: absolute;
+    background-color: black;        
+    display: block;
+    height: 5px;
+    width: 90%;
+    border-radius: 2px;
+    top: 50%;
+    right: 50%;
+}
+
+
+.bar-one {
+    transform: translate( 50%, -50%)  rotate(135deg);
+}
+
+
+.bar-two {
+    transform: translate( 50%, -50%)  rotate(-135deg);
+}
+
+
+.device-input-fields-container {
+    position: absolute;
+    top: 4rem;
+    right: 5%;
+    display: block;
+    padding: 2em;
+    max-height: 260px;
+    border: 2px solid white ;
+    border-radius: 5px;
+    margin: 0 auto;  
+}
+
+
+.device-input-fields + .device-input-fields {
+    margin-top: 2em;
+}
+
+
+.device-input-fields > label {
+    display: block;
+    margin: .5em 0  
+}
+
+
+.device-input-fields > input {
+    margin: 0;
+    padding: .2em .1em;
+    width: 13rem;
+}
+
+
+.device-input-fields > textarea {
+    margin: 0;
+    padding: .2em .1em;
+    width: 13rem;
+    resize: vertical;
+    font-size: 1rem;
+}
