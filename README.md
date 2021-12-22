@@ -1,4 +1,4 @@
-# Interview Follow Up
+# Interview Follow-up
 During a tech interview last week I ran out of time to implement all the functions the interviewer wanted implemented.
 
 So I decided to recreate the program from memory and finish the implementations.
