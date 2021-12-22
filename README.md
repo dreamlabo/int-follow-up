@@ -10,10 +10,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser
 
 Once the program opens in the bowser, you will see an 'add device' button.  
 Clicking on this will add a 'device' container to the screen.  
-Clicking on the individual device container will open a device edit window on the right of the screen which allows the user to edit the device name and desciption.  
-Clicking outside both both device container and the device edit window, will close the edit window but device's name and description will remain displayed on the device.  
+Clicking on the individual device container will open a device edit window on the right of the screen which allows the user to edit the device's name and desciption.  
+Clicking outside both the device container and the device edit window, will close the edit window but the device's name and description will remain displayed on the device.  
 Clicking on the 'X' in the device container will remove the specific device from the device array.  
-Clicking in a device container again will reopen the device edit window with the device's info appearing in the edit window as well, allowing for easier editing.  
+Clicking in a device container again will reopen the device's edit window with the device's info appearing in the edit window as well, allowing for easier editing.  
  
  
 
